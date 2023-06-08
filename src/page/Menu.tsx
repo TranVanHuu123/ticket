@@ -23,11 +23,14 @@ const Menu = (props: Props) => {
         </svg>
         Trang chủ
       </NavLink>
-      <a className="flex items-center py-4 pl-[60px] gap-x-[15px]" href="/">
+      <NavLink
+        className="flex items-center py-4 pl-[60px] gap-x-[15px]"
+        to="/manage"
+      >
         <img srcSet="./u_ticket2.png 2x" alt="img" />
         Quản lý vé
-      </a>
-      <a className="flex items-center py-4 pl-[60px] gap-x-[15px]" href="/">
+      </NavLink>
+      <NavLink className="flex items-center py-4 pl-[60px] gap-x-[15px]" to="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -43,11 +46,11 @@ const Menu = (props: Props) => {
           />
         </svg>
         Đối soát vé
-      </a>
-      <a className="flex items-center py-4 pl-[60px] gap-x-[15px]" href="/">
+      </NavLink>
+      <NavLink className="flex items-center py-4 pl-[60px] gap-x-[15px]" to="/">
         <img srcSet="./u_invoice.png 2x" alt="img" />
         Cài đặt
-      </a>
+      </NavLink>
     </div>
   );
 };

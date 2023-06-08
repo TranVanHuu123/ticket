@@ -6,7 +6,7 @@ type Props = {};
 
 const MainListTicket = (props: Props) => {
   return (
-    <div className="w-[1567px] px-6 py-6 mt-5 bg-white">
+    <div className="max-w-[1567px] w-full px-6 py-6 mt-5 bg-white">
       <h1 className="text-[36px]">Danh sách vé</h1>
       <div className="flex justify-between w-full mt-8 mb-8">
         <Search></Search>

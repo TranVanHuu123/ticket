@@ -5,7 +5,7 @@ type Props = {};
 const TableListTocket = (props: Props) => {
   return (
     <div className="max-w-[1567px] w-full">
-      <div className="w-[1519px] mt-4 bg-white rounded-xl">
+      <div className="w-full mt-4 bg-white rounded-xl">
         <table className="w-full ">
           <thead>
             <tr>
